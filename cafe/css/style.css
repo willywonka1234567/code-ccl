@@ -1,0 +1,76 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*general */
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  background-color: #222;
+  overflow: auto;
+  line-height: 1.7em;
+}
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.header nav h1 a {
+  color: rgb(255, 255, 255);
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+.header nav ul li {
+  float: left;
+}
+.header nav ul li a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: block;
+}
+.header nav ul li a:hover {
+  background: #444;
+}
+.active {
+  background: #444;
+}
+/* vp */
+
+.vp {
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center;
+  background-size: cover;
+}
+
+.vp-content {
+  max-width: 500px;
+  padding-top: 170px;
+  color: aliceblue;
+}
+
+.vp-content h1 {
+  font-size: 40px;
+}
